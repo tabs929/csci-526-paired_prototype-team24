@@ -11,6 +11,11 @@ Build/
 [Bb]uild/
 [Bb]uilds/
 
+# Allow WebGLBuild folders
+!WebGLBuild/
+!WebGLBuild/Build/
+!WebGLBuild/TemplateData/
+
 # Unity cache and temporary files
 [Ll]ibrary/
 [Tt]emp/
@@ -79,8 +84,9 @@ crashlytics-build.properties
 ehthumbs.db
 Thumbs.db
 
-# WebGL Template
+# WebGL Template 
 [Tt]emplateData/
+!WebGLBuild/TemplateData/
 
 # Fmod cache
 fmod_editor.log
